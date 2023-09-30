@@ -5,8 +5,8 @@ export default function Imperio(props){
     <View style={styles.container}>
       <Text style={styles.titulo}> Minhas lindas fotos </Text>
 
-    <Button title="Fotos Etec" onPress={() => props.navigation.navigate('FotosEtec')}/>
-    <Button title="Fotos Familia" onPress={() => props.navigation.navigate('FotosFamilia')}/>
+    <Button title="Planetas" onPress={() => props.navigation.navigate('Planetas')}/>
+    <Button title="Naves" onPress={() => props.navigation.navigate('Naves')}/>
 
     </View>
   );
